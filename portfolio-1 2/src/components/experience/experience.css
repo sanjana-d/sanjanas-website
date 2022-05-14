@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+#experience{
+    padding-left: 10%;
+    padding-top: 10%;
+}
+
+.experience-title{
+    font-family: 'Poppins', sans-serif;
+    font-size: 60px;
+    padding-top: 10%;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.experience-box-small {
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    color: var(--color-text-green);
+    max-width: 35%;
+    padding: 10px;
+    padding-bottom: 5px;
+    cursor: pointer;
+    border: 2px solid var(--color-text);
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-left: 10%
+}
+
+.experience-box-small:hover .experience-hide-block{
+    padding-bottom: 100px;
+    display:block;
+}
+
+.experience-hide-block{
+    display:none;
+}
+
+.experience-box {
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    color: var(--color-text-green);
+    max-width: 35%;
+    padding: 10px;
+    padding-bottom: 100px;
+    cursor: pointer;
+    border: 2px solid var(--color-text);
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-left: 10%
+}
+.experience-box-title{
+    
+}
+
+.experience-box-content {
+    font-weight: lighter;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    color: var(--color-text-light);
+}
+
+.experience-box-date {
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+    color: var(--color-text);
+}
+
+
+.experience-description ul {
+    padding-top: 20px;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(150px, 10px));
+    font-weight: lighter;
+    color: var(--color-text-light);
+  }
+  
+.experience-description li {
+    position: relative;
+    padding-left: 20px;
+    font-size: 17px;
+    color: var(--color-text-light);
+    font-weight: lighter;
+    font-family: 'Poppins', sans-serif;
+}
+
+.experience-description li::before {
+    content: "▹    ";
+    color: var(--color-text-green);
+    position: absolute;
+    left: 0;
+}
+
+@media only screen and (max-width: 425px) and (min-width:320px){
+    #experience{
+        padding-left: 5%;
+        padding-top: 20%;
+    }
+
+    .experience-title{
+        font-family: 'Poppins', sans-serif;
+        font-size: 30px;
+        padding-top: 10%;
+        margin-left: 5%;
+        margin-top: 10%;
+    }
+
+    .experience-box-small {
+        font-size: 12px;
+        font-family: 'Poppins', sans-serif;
+        color: var(--color-text-green);
+        max-width: 65%;
+        padding: 10px;
+        padding-bottom: 5px;
+        cursor: pointer;
+        border: 2px solid var(--color-text);
+        border-radius: 8px;
+        margin-top: 10px;
+        margin-left: 5%
+    }
+
+    .experience-box {
+        font-size: 12px;
+        font-family: 'Poppins', sans-serif;
+        color: var(--color-text-green);
+        max-width: 65%;
+        padding: 10px;
+        padding-bottom: 50px;
+        cursor: pointer;
+        border: 2px solid var(--color-text);
+        border-radius: 8px;
+        margin-top: 10px;
+        margin-left: 5%
+    }
+
+    .experience-box-content {
+        font-weight: lighter;
+        font-size: 12px;
+        font-family: 'Poppins', sans-serif;
+        color: var(--color-text-light);
+    }
+
+    .experience-box-date {
+        font-size: 10px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: lighter;
+        color: var(--color-text);
+    }
+
+    .experience-description ul {
+        padding-top: 20px;
+        list-style-type: none;
+        display: grid;
+        grid-template-columns: repeat(2, minmax(150px, 10px));
+        font-weight: lighter;
+        color: var(--color-text-light);
+    }
+
+    .experience-description li {
+        position: relative;
+        padding-left: 20px;
+        font-size: 12px;
+        color: var(--color-text-light);
+        font-weight: lighter;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .experience-box-small:hover .experience-hide-block{
+        padding-bottom: 30px;
+        display:block;
+    }
+    
+}
+
+
+@media only screen and (max-width: 1024px) and (min-width:767px){
+    #experience{
+        padding-left: 5%;
+        padding-top: 20%;
+    }
+
+    .experience-title{
+        font-family: 'Poppins', sans-serif;
+        font-size: 40px;
+        padding-top: 10%;
+        margin-left: 5%;
+        margin-top: 10%;
+    }
+
+    .experience-box-small {
+        font-size: 16px;
+        font-family: 'Poppins', sans-serif;
+        color: var(--color-text-green);
+        max-width: 65%;
+        padding: 10px;
+        padding-bottom: 5px;
+        cursor: pointer;
+        border: 2px solid var(--color-text);
+        border-radius: 8px;
+        margin-top: 10px;
+        margin-left: 5%
+    }
+
+    .experience-box {
+        font-size: 16px;
+        font-family: 'Poppins', sans-serif;
+        color: var(--color-text-green);
+        max-width: 65%;
+        padding: 10px;
+        padding-bottom: 50px;
+        cursor: pointer;
+        border: 2px solid var(--color-text);
+        border-radius: 8px;
+        margin-top: 10px;
+        margin-left: 5%
+    }
+
+    .experience-box-content {
+        font-weight: lighter;
+        font-size: 16px;
+        font-family: 'Poppins', sans-serif;
+        color: var(--color-text-light);
+    }
+
+    .experience-box-date {
+        font-size: 12px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: lighter;
+        color: var(--color-text);
+    }
+
+    .experience-description ul {
+        padding-top: 20px;
+        list-style-type: none;
+        display: grid;
+        grid-template-columns: repeat(2, minmax(150px, 10px));
+        font-weight: lighter;
+        color: var(--color-text-light);
+    }
+
+    .experience-description li {
+        position: relative;
+        padding-left: 20px;
+        font-size: 16px;
+        color: var(--color-text-light);
+        font-weight: lighter;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .experience-box-small:hover .experience-hide-block{
+        padding-bottom: 30px;
+        display:block;
+    }
+    
+}
