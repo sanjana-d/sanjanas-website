@@ -12,7 +12,7 @@ const Projects = () => {
       <span className="projects-title">projects</span>
       <div classname="projects-grid">
         <div className='projects-box'>
-          <a href="https://github.com/sanjana-d/LOC8-Geographic-Interface-Software-Program" target="_blank"> 
+          <a href="https://github.com/sanjana-d/LOC8-Geographic-Interface-Software-Program" target="_blank" rel="noreferrer"> 
             <div id="github-icon">
               <FaGithub size={30}/>
             </div>
@@ -33,7 +33,7 @@ const Projects = () => {
 
           
         <div className='projects-box'>
-          <a href="https://github.com/sanjana-d/ece361-Computer-Networks/tree/master/TextConference" target="_blank"> 
+          <a href="https://github.com/sanjana-d/ece361-Computer-Networks/tree/master/TextConference" target="_blank" rel="noreferrer"> 
             <div id="github-icon">
               <FaGithub size={30}/>
             </div>
@@ -52,7 +52,7 @@ const Projects = () => {
         
 
         <div className='projects-box'>
-          <a href="https://github.com/sanjana-d/Monopoly-JAVA" target="_blank"> 
+          <a href="https://github.com/sanjana-d/Monopoly-JAVA" target="_blank" rel="noreferrer"> 
             <div id="github-icon">
               <FaGithub size={30}/>
             </div>
@@ -69,7 +69,7 @@ const Projects = () => {
         </div>
 
         <div className='projects-box'>
-          <a href="https://github.com/sanjana-d/Reversi" target="_blank"> 
+          <a href="https://github.com/sanjana-d/Reversi" target="_blank" rel="noreferrer"> 
             <div id="github-icon">
               <FaGithub size={30}/>
             </div>
@@ -87,11 +87,11 @@ const Projects = () => {
         </div>
 
         <div className='projects-box'>
-          <a href="" target="_blank"> 
+          
             <div id="github-icon">
               <FaGithub size={30}/>
             </div>
-          </a>
+          
           {"ThermoComforter: Relief from Hot Flashes"}
           <div className='projects-description'>
             <br/>

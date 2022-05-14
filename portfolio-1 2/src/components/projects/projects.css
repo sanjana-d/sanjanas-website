@@ -85,9 +85,7 @@
     color:var(--color-text-green)
 }
 
-.projects-box-padding{
 
-}
 
 @media only screen and (max-width: 425px) and (min-width:320px){
     #projects{
