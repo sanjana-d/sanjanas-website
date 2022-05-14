@@ -1,0 +1,2 @@
+[build]
+  command = "npm run build" # the command you run to build this file
