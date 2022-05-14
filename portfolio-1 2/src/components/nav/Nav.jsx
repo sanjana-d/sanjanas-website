@@ -9,13 +9,13 @@ const Nav = () => {
   return (
     <div className='nav'>
       <div className='sidebar-logos'>
-        <a href="https://github.com/sanjana-d" target="_blank">
+        <a href="https://github.com/sanjana-d" target="_blank" rel="noreferrer">
           <li><FaGithub size={24} /></li>
         </a>
-        <a href="https://www.linkedin.com/in/sanjana-dasadia-965352198" target="_blank">
+        <a href="https://www.linkedin.com/in/sanjana-dasadia-965352198" target="_blank" rel="noreferrer">
           <li><FaLinkedin size={24} /></li>
         </a>
-        <a href="mailto:sanjana.dasadia@gmail.com" target="_blank">
+        <a href="mailto:sanjana.dasadia@gmail.com" target="_blank" rel="noreferrer">
           <li><AiTwotoneMail size={24} /></li>
         </a>
       </div>
