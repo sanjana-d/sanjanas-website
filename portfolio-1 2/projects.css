@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+#projects{
+    padding-left: 10%;
+    padding-top: 10%;
+    
+}
+
+
+
+.projects-title{
+    font-family: 'Poppins', sans-serif;
+    font-size: 60px;
+    padding-top: 10%;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.projects-grid{
+    display: flex;
+}
+
+.projects-box{
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    color: var(--color-text-lightest);
+    padding-top:5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    cursor: pointer;
+    border: 0px solid;
+    background-color: var(--color-bg-lightest);
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-left: 10%;
+    max-width: 35%;
+
+}
+
+.projects-box-2{
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    color: var(--color-text-lightest);
+    padding-top:5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    cursor: pointer;
+    border: 0px solid;
+    background-color: var(--color-bg-lightest);
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-left: 30%;
+    max-width: 16%;
+    margin-right:0%;
+}
+
+
+.projects-box:hover{
+    transform: translateY(-7px);
+}
+
+.projects-description{
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    color: var(--color-text);
+    font-weight: lighter;
+}
+
+.projects-tech{
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+    color: var(--color-text-green);
+    font-weight: lighter;
+}
+
+#github-icon{
+    margin-left: 98%;
+    size:28px;
+    color: var(--color-text-lightest);
+}
+
+#github-icon:hover{
+    color:var(--color-text-green)
+}
+
+
+
+@media only screen and (max-width: 425px) and (min-width:320px){
+    #projects{
+        padding-left: 5%;
+        padding-top: 20%;
+        
+    }
+
+    .projects-title{
+        font-family: 'Poppins', sans-serif;
+        font-size: 30px;
+        padding-top: 10%;
+        margin-left: 5%;
+        margin-top: 10%;
+    }
+
+    .projects-box{
+        font-size: 14px;
+        font-family: 'Poppins', sans-serif;
+        color: var(--color-text-lightest);
+        padding-top:5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 30px;
+        cursor: pointer;
+        border: 0px solid;
+        background-color: var(--color-bg-lightest);
+        border-radius: 8px;
+        margin-top: 10px;
+        margin-left: 5%;
+        max-width: 65%;
+    
+    }
+
+    .projects-description{
+        font-size: 12px;
+        font-family: 'Poppins', sans-serif;
+        color: var(--color-text);
+        font-weight: lighter;
+    }
+
+    .projects-tech{
+        font-size: 12px;
+        font-family: 'Poppins', sans-serif;
+        color: var(--color-text-green);
+        font-weight: lighter;
+    }
+
+    #github-icon{
+        margin-left: 86%;
+        size:28px;
+        color: var(--color-text-lightest);
+    }
+    
+}
+
+@media only screen and (max-width: 1024px) and (min-width:767px){
+    #projects{
+        padding-left: 5%;
+        padding-top: 20%;
+        
+    }
+
+    .projects-title{
+        font-family: 'Poppins', sans-serif;
+        font-size: 42px;
+        padding-top: 10%;
+        margin-left: 5%;
+        margin-top: 10%;
+    }
+
+    .projects-box{
+        font-size: 18px;
+        font-family: 'Poppins', sans-serif;
+        color: var(--color-text-lightest);
+        padding-top:5px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 30px;
+        cursor: pointer;
+        border: 0px solid;
+        background-color: var(--color-bg-lightest);
+        border-radius: 8px;
+        margin-top: 10px;
+        margin-left: 5%;
+        max-width: 65%;
+    
+    }
+
+    .projects-description{
+        font-size: 14px;
+        font-family: 'Poppins', sans-serif;
+        color: var(--color-text);
+        font-weight: lighter;
+    }
+
+    .projects-tech{
+        font-size: 14px;
+        font-family: 'Poppins', sans-serif;
+        color: var(--color-text-green);
+        font-weight: lighter;
+    }
+
+    #github-icon{
+        margin-left: 95%;
+        margin-top: 1%;
+        size:28px;
+        color: var(--color-text-lightest);
+    }
+    
+}
