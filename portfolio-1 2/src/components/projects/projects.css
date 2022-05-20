@@ -96,7 +96,7 @@
 
     .projects-title{
         font-family: 'Poppins', sans-serif;
-        font-size: 30px;
+        font-size: 32px;
         padding-top: 10%;
         margin-left: 5%;
         margin-top: 10%;
@@ -146,7 +146,6 @@
     #projects{
         padding-left: 5%;
         padding-top: 20%;
-        
     }
 
     .projects-title{
@@ -194,6 +193,10 @@
         margin-top: 1%;
         size:28px;
         color: var(--color-text-lightest);
+    }
+
+    .projects-end{
+        padding-bottom: 20%;
     }
     
 }

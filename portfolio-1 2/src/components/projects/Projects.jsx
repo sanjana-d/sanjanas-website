@@ -105,6 +105,7 @@ const Projects = () => {
         </div>
 
       </div>
+      <div className='projects-end'><br/><br/><br/></div>
       
 
 
