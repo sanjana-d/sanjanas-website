@@ -14,9 +14,6 @@ const Experience = () => {
           <div className="experience-hide-block">
             <div classname="experience-box-content">
               <ul className="experience-description">
-                <li>{"jnrjbnrnbri"}</li>
-                <li>{"jnrjbnrnbri"}</li>
-                <li>{"jnrjbnrnbri"}</li>
               </ul>
             </div>
           </div>
