@@ -103,7 +103,7 @@
     }
 
     .projects-box{
-        font-size: 12px;
+        font-size: 14px;
         font-family: 'Poppins', sans-serif;
         color: var(--color-text-lightest);
         padding-top:5px;
@@ -121,14 +121,14 @@
     }
 
     .projects-description{
-        font-size: 11px;
+        font-size: 12px;
         font-family: 'Poppins', sans-serif;
         color: var(--color-text);
         font-weight: lighter;
     }
 
     .projects-tech{
-        font-size: 11px;
+        font-size: 12px;
         font-family: 'Poppins', sans-serif;
         color: var(--color-text-green);
         font-weight: lighter;
@@ -151,14 +151,14 @@
 
     .projects-title{
         font-family: 'Poppins', sans-serif;
-        font-size: 40px;
+        font-size: 42px;
         padding-top: 10%;
         margin-left: 5%;
         margin-top: 10%;
     }
 
     .projects-box{
-        font-size: 16px;
+        font-size: 18px;
         font-family: 'Poppins', sans-serif;
         color: var(--color-text-lightest);
         padding-top:5px;
