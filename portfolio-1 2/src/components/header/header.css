@@ -106,19 +106,19 @@ b{
         color: var(--color-text-lightest);
         padding-left: 5%;
         text-align: left;
-        font-size: 30px;
+        font-size: 32px;
         margin-top: 35px;
     }
 
     .header-title {
         font-family: 'Poppins', sans-serif;
-        font-size: 35px;
+        font-size: 36px;
     }
 
     .header-name {
         font-family: 'Poppins', sans-serif;
         color: var(--color-text-green);
-        font-size: 35px;
+        font-size: 36px;
     }
 
     .header-body{
