@@ -1,2 +1,5 @@
+[install]
+  command = "npm install --force"
+  
 [build]
   command = "npm run build" # the command you run to build this file
