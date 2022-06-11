@@ -50,6 +50,24 @@ const Projects = () => {
           </div>
         </div>
         
+        <div className='projects-box'>
+          <a href="https://github.com/sanjana-d/WeatherApp-Swift" target="_blank" rel="noreferrer"> 
+            <div id="github-icon">
+              <FaGithub size={30}/>
+            </div>
+          </a>
+          {"Weather App for iOS and Garden App for MacOS"}
+          <div className='projects-description'>
+            <br/>
+            {"Created an app to display weather based on current geographic location using CoreLocation and OpenWeatherMap API. "}
+            {"Followed WWDC22 code along series to create a Garden App for MacOS with flexible user experience such as drag/drop, keyboard shortcuts, file export and more."}
+          </div>
+          <div className='projects-tech'>
+            <br/>
+            {"SwiftUI, API, iOS"}
+          </div>
+        </div>
+        
 
         <div className='projects-box'>
           <a href="https://github.com/sanjana-d/Monopoly-JAVA" target="_blank" rel="noreferrer"> 
@@ -83,6 +101,23 @@ const Projects = () => {
           <div className='projects-tech'>
             <br/>
             {"C, Predict Next Human Move"}
+          </div>
+        </div>
+
+        <div className='projects-box'>
+          <a href="https://github.com/sanjana-d/Lane-Detection-For-Autonomous-Vehicles" target="_blank" rel="noreferrer"> 
+            <div id="github-icon">
+              <FaGithub size={30}/>
+            </div>
+          </a>
+          {"Lane Detection for Autonomous Vehicles"}
+          <div className='projects-description'>
+            <br/>
+            {"Used OpenCV Library, Numpy, and basics of Computer Vision to detect lanes in an image and video. Applications- Self driving cars, line following robots "}
+          </div>
+          <div className='projects-tech'>
+            <br/>
+            {"OpenCV, Python"}
           </div>
         </div>
 
